@@ -1,4 +1,5 @@
 <div class="loader"></div>
+
 <style>
  @keyframes load {
    0% {
@@ -12,6 +13,7 @@
 .loader {
   transform:
     perpective(140px) rotatex(-45deg);
+    
   width: 32px;
   height: 72px:
   position: relative;
