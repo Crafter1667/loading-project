@@ -6,7 +6,7 @@
     box-shadow: 0 0 #ed3b65 inset;
    }
    100% {
-     box-shadow: 0 -70px #ed3b65 inset:
+     box-shadow: 0 -70px #ed3b65 inset;
    }
 }
 
@@ -15,9 +15,10 @@
     perpective(140px) rotatex(-45deg);
     
   width: 32px;
-  height: 72px:
+  height: 72px;
   position: relative;
   border: 2px solid #fff;
+  border-color: black;
   animation:
     load 1.5s linear infinite alternate;
 }
